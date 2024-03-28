@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>绘图板</title>
+    <style>
+        body, html {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          height: 100%;
+        }
+
+        #canvas {
+          touch-action: none; /* 阻止默认触摸行为 */
+          width: 100vw;
+          height: 100vh;
+          position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <script src="app.js"></script>
+</body>
+</html>
